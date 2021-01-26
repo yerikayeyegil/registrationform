@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #DFE3EF;
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+.row{
+    overflow: hidden;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 230px;
+    position: relative;
+    height: 100vh; 
+}
+.left-container h3{
+    font-size: 45px;
+    width: 70%;
+    line-height: 60px;
+    color: #0e1318;
+    margin-top: -10px;
+}
+.left-container p{
+    width: 58%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #727272;
+    margin-top: 19px;
+}
+.left-container .register-content{
+    width: 450px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+    padding: 15px 30px 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    position: absolute;
+    left: 5%;
+    background-color: #fff;
+    z-index: 10;
+} 
+.left-container .register-content .input-content{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.input-content label{
+    font-size: 13px;
+    color: #727272;
+    margin-bottom: 11px;
+}
+.input-content input{
+    border: none;
+    border-bottom: 1px solid #a7a7a7;
+    padding-bottom: 2px;
+}
+.input-content input:focus{
+    outline: none;
+}
+.registration-container{
+    position: relative;
+}
+.register-content button{
+    width: 140px;
+    height: 45px;
+    margin-top: 9px;
+    margin-left: 10px;
+    background-color: #FF7240;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.registration-container img{
+    width: 60px;
+    margin-top: 100px;
+    margin-left: -5px;
+}
+.right-container{
+    background-color: #0E243C;
+    height: 100vh; 
+    position: relative;
+    z-index: 1;
+}
+.right-container .image1{
+    width: 140px;
+    position: absolute;
+    left: -10%;
+    top: 6%;
+}
+.right-container .image2{
+    width: 60px;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+}
+.right-container .green-dot{
+    width: 70px;
+    height: 70px;
+    background-color: #19e49d;
+    position: absolute;
+    left: -5%;
+    top: 35%;
+    border-radius: 50%;
+}
+.right-container .image3{
+    width: 100px;
+    position: absolute;
+    left: 15%;
+    bottom: 30%;
+    transform: rotate(-10deg);
+}
+.right-container .blue-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #3c69f0;
+    position: absolute;
+    left: 20%;
+    bottom: 25%;
+    border-radius: 50%;
+}
+.right-container .image4{
+    width: 190px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.right-container .purple-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #7c66c4;
+    position: absolute;
+    left: 22%;
+    top: 20%;
+    border-radius: 50%;
+}
+.right-container .pink-dot{
+    width: 30px;
+    height: 30px;
+    background-color: #f35636;
+    position: absolute;
+    left: 30%;
+    top: -2%;
+    border-radius: 50%;
+}
+.right-container .neon-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #19e49d;
+    position: absolute;
+    right: 25%;
+    top: 18%;
+    border-radius: 50%;
+}
+.right-container .dark-blue-dot{
+    width: 60px;
+    height: 60px;
+    background-color: #346BEF;
+    position: absolute;
+    right: -1%;
+    top: 0%;
+    transform: rotate(35deg);
+}
+.right-container .image5{
+    width: 50px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.right-container .wave{
+    width: 70px;
+    position: absolute;
+    right: 25%;
+    top: 40%;
+}
+.right-container .wave1{
+    width: 70px;
+    position: absolute;
+    left: 35%;
+    bottom: 15%;
+}
+.right-container .image6{
+    width: 150px;
+    position: absolute;
+    right: 17%;
+    bottom: 10%;
+}
+.right-container .yellow-dot{
+    width: 10px;
+    height: 10px;
+    background-color: #f5c34e;
+    position: absolute;
+    right: 40%;
+    top: 55%;
+    border-radius: 50%;
+}
+.right-container .dark-purple-dot{
+    width: 40px;
+    height: 40px;
+    background-color: #8949E3;
+    position: absolute;
+    right: -3%;
+    top: 50%;
+    border-radius: 50%;
+}
